@@ -2,15 +2,15 @@
 
 module.exports = {
 
-    init: require("./lib/init.js"),
+    init: require("./lib/nucleo/init.js"),
 
-    Proceso : require("./lib/proceso.js"),  
+    Proceso : require("./lib/nucleo/proceso.js"),  
 
-    Ejecutor: require("./lib/ejecutor.js"),
+    Ejecutor: require("./lib/nucleo/ejecutor.js"),
 
-    Tarea: require("./lib/tarea.js"),
+    Tarea: require("./lib/nucleo/tarea.js"),
 
-    Procesador: require("./lib/procesador.js"),
+    Procesador: require("./lib/nucleo/procesador.js"),
 
-    FamiliaProcesos: require("./lib/familia_procesos.js"),
+    FamiliaProcesos: require("./lib/nucleo/familia_procesos.js"),
 }
