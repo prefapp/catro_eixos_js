@@ -1,0 +1,19 @@
+{
+  "name": "catro_eixos_js",
+  "version": "1.0.0",
+  "description": "Librería de ejecución de procesos",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [
+    "Procesos",
+    "librería"
+  ],
+  "author": "Francisco Maseda Muiño <frmadem@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  }
+}
