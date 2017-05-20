@@ -6,7 +6,6 @@ const expect = chai.expect;
 const assert = chai.assert;
 
 const CatroEixos = require("../../index.js");
-const FamiliaA = require("../fixtures/familia_a.js");
 
 const utiles = require("../fixtures/utiles.js");
 
@@ -24,7 +23,11 @@ describe("Núcleo - Base", () => {
 
         it("inicializa correctamente un procesador", (hecho) => {
 
-            CatroEixos.init([FamiliaA])
+            CatroEixos.init({
+
+                "A": __dirname + "/../fixtures/familia_a"
+
+            })
 
                 .then((procesador) => {
 
