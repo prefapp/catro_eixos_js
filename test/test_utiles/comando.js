@@ -14,7 +14,7 @@ describe("Utiles - Comando", () => {
 
         it("ejecuta normalmente un metodo", (hecho) => {
 
-            new Comando("ls", ["/no_es"], {
+            new Comando("ls", ["/"], {
 
                 soloSalida: true
 
