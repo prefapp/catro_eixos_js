@@ -5,7 +5,9 @@ const fs = require("fs");
 
 class ProcesoComplejo extends CatroEixos.Proceso{
 
-    __r(){
+  DEPURAR()  { return true} 
+ 
+   __r(){
         
         return [
 

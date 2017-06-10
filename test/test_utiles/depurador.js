@@ -42,11 +42,12 @@ describe("Útiles - Depurado", () => {
                     expect(tarea.resultados["resta"]).to.equal(0);
                     expect(tarea.resultados["multiplicacion"]).to.equal(100);
                     expect(tarea.resultados["division"]).to.equal(1);
-
                     hecho();
                 })
                 .catch((err) => {
+
                     console.log(err);
+
                     hecho(1);
                 })
 
