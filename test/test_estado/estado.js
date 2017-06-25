@@ -25,7 +25,7 @@ describe("Estado - Proceso", () => {
 
         aa.forEach((a) => estado.accion(a));
 
-        let e = estado.getTrazadoProceso();
+        let e = estado.getTrazadoProceso()["proceso"];
 
         expect(is(e, fromJS({
 
@@ -39,7 +39,7 @@ describe("Estado - Proceso", () => {
 
             "pasoError": false,
     
-            "ultimaAccion": "PASO_EJECUTADO"    
+ //           "ultimaAccion": "PASO_EJECUTADO"    
     
         }))).to.be.equal(true)
 
@@ -61,7 +61,7 @@ describe("Estado - Proceso", () => {
 
         aa.forEach(a => estado.accion(a));
 
-        let e = estado.getTrazadoProceso();
+        let e = estado.getTrazadoProceso()["proceso"];
 
         expect(is(e, fromJS({
 
@@ -70,7 +70,7 @@ describe("Estado - Proceso", () => {
             pasoError: "C",
             enPaso: false,
             enSubproceso: false,
-            ultimaAccion: "PASO_ERRONEO"
+  //          ultimaAccion: "PASO_ERRONEO"
             
         }))).to.be.equal(true);
 
