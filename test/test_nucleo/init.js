@@ -78,6 +78,27 @@ describe("Núcleo - Base", () => {
 
         })
 
+        it("Controla la carga de un proceso erroneo", (hecho) => {
+
+            CatroEixos.init({
+
+                "Test" : __dirname +  "/../fixtures"
+
+            })
+            .then((c) => {
+
+                hecho(1);
+            })
+            .catch((e) => {
+
+                console.log(e);
+
+                hecho();
+
+            })
+
+        })
+
     })
 
 })
