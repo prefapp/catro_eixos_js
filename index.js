@@ -13,4 +13,6 @@ module.exports = {
     Procesador: require("./lib/nucleo/procesador.js"),
 
     FamiliaProcesos: require("./lib/nucleo/familia_procesos.js"),
+
+    mixin: require("./lib/utiles/mixin.js")
 }
