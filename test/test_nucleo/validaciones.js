@@ -71,7 +71,7 @@ describe("Núcleo - Base", () => {
             .catch((tarea) => {
 
                 expect(tarea.resultados.estado).to.equal("KO");
-                expect(tarea.resultados.error).to.equal("A_NO_ES_NUMERICO");
+                expect(tarea.resultados.error).to.match(/A_NO_ES_NUMERICO/);
 
                 hecho();
             })
@@ -94,7 +94,7 @@ describe("Núcleo - Base", () => {
             .catch((tarea) => {
 
                 expect(tarea.resultados.estado).to.equal("KO");
-                expect(tarea.resultados.error).to.equal("B_NO_ES_NUMERICO");
+                expect(tarea.resultados.error).to.match(/B_NO_ES_NUMERICO/);
 
                 hecho();
             })
