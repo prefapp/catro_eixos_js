@@ -21,14 +21,14 @@ describe("Procesador - Limites", function(){
             {
 
                 limites: {
-                    "Dormir.dormilon": 1
+                    "Dormir.dormilon": 20
                 }
 
         });
 
         let dd = [];
 
-        let promesas = Array.apply(null, { length: 100 })
+        let promesas = Array.apply(null, { length: 1000 })
 
             .map((n, i) => {
         
