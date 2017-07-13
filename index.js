@@ -16,5 +16,5 @@ module.exports = {
 
     mixin: require("./lib/utiles/mixin.js"),
 
-    ProcesoBoostrap: require("./lib/bootstrap.js")
+    ProcesoBootstrap: require("./lib/bootstrap.js")
 }
