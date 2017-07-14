@@ -1,12 +1,12 @@
 const {expect} = require("chai");
-const {ProcesoBoostrap, Tarea} = require("../../index.js");
+const {ProcesoBootstrap, Tarea} = require("../../index.js");
 
 
 describe("Bootstrap - Utiles", function(){
 
     it("Permite crear boostraps", function(hecho){
 
-        let p = ProcesoBoostrap(function(){
+        let p = ProcesoBootstrap(function(){
 
             this.boot("carga 0", function(){
                 this.resultado("pasos", []);
