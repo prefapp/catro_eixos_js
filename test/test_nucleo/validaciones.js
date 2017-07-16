@@ -101,6 +101,23 @@ describe("Núcleo - Base", () => {
 
         })
 
+        it("Controla una validacion que no tiene método ko", (hecho) => {
+
+            new ProcesoValidacion(
+                utiles.tarea("foo", {a:1, b:2, c: "FOO"})
+            ).ejecutar()
+
+            .then(() => { console.log("EIQUI"); hecho(1)})
+
+            .catch(({resultados}) => {
+
+                expect(resultados.error).to.match(/__validarC/)
+                hecho();
+            })
+
+
+        })
+
     })
 
 })

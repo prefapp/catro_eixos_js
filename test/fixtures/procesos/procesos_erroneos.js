@@ -29,6 +29,22 @@ module.exports = {
             throw new Error();
         }
 
+    },
+
+    "ProcesoErrorEnOk": class extends Proceso{
+
+        __r(){
+            return ["__falla"]
+        }
+
+        __falla(){
+            
+        }
+
+        OK__falla(){
+            throw new Error();
+        }
+
     }
 
 }

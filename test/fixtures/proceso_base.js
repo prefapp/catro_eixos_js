@@ -4,6 +4,8 @@ const CatroEixos = require("../../index.js");
 
 class ProcesoBase extends CatroEixos.Proceso {
 
+ //   DEPURAR() {return true}
+
     __r(){
 
         return [

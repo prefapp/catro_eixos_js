@@ -3,7 +3,8 @@ const {expect} = require("chai");
 const {
     ProcesoSinKo,
     ProcesoPetaConstructor,
-    ProcesoPeteInterno
+    ProcesoPeteInterno,
+    ProcesoErrorEnOk
 
 } = require("../fixtures/procesos/procesos_erroneos.js");
 
@@ -19,7 +20,8 @@ describe("Se controlan los errores", function() {
 
             ProcesoSinKo,
             ProcesoPetaConstructor,
-            ProcesoPeteInterno
+            ProcesoPeteInterno,
+            ProcesoErrorEnOk
 
         })
 
@@ -68,6 +70,22 @@ describe("Se controlan los errores", function() {
             console.log("Error: en ProcesoSinKo");
             hecho(1);
         })
+        .catch((err) => {
+            console.log(err);
+            hecho();
+        })
+    })
+
+    it("Error en ok", function(hecho){
+
+        P.ejecutar(
+            new Tarea("", {proceso: "ProcesoErrorEnOk"})
+        )
+        .then(() => {
+            console.log("Error: en ProcesoErrorEnOk");
+            hecho(1);
+        })
+
         .catch((err) => {
             console.log(err);
             hecho();

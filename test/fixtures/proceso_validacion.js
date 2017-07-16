@@ -4,6 +4,8 @@ const CatroEixos = require("../../index.js");
 
 class ProcesoValidacion extends CatroEixos.Proceso {
 
+    DEPURAR() {return true}
+
     parametrosNecesarios(){
         return ["a", "b", "c"]
     }
@@ -30,10 +32,15 @@ class ProcesoValidacion extends CatroEixos.Proceso {
         this.error("B_NO_ES_NUMERICO");
     }
 
+    __validarC(){
+        return this.arg("c") !== "FOO";
+    }
+
     __v(){
         return [
             "__validarAEsNumero",
-            "__validarBEsNumero"
+            "__validarBEsNumero",
+            "__validarC"
         ]
     }   
 
