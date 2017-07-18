@@ -1,6 +1,6 @@
 {
   "name": "catro-eixos-js",
-  "version": "1.7.6",
+  "version": "1.8.1",
   "description": "Librería de ejecución de procesos",
   "main": "index.js",
   "repository": "https://github.com/prefapp/catro_eixos_js.git",
@@ -16,6 +16,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-immutable": "^1.6.0",
+    "debug": "^2.6.8",
     "mocha": "^3.4.1",
     "prompt-sync": "^4.1.5"
   },
