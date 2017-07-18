@@ -15,5 +15,7 @@ module.exports = {
     FamiliaProcesos: require("./lib/nucleo/familia_procesos.js"),
     mixin: require("./lib/utiles/mixin.js"),
 
-    ProcesoBootstrap: require("./lib/bootstrap.js")
+    ProcesoBootstrap: require("./lib/bootstrap.js"),
+    
+    TestUnidadProceso: require("./lib/dev/unidad_proceso.js")
 }
