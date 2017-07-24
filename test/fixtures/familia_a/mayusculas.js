@@ -14,7 +14,13 @@ class Mayusculas extends CatroEixos.Proceso {
 
     __aMayusculas(){
 
+        this.__log("Pasando cadena a mayúsculas");
+
         this.resultado("cadena", this.arg("cadena").toUpperCase());
+    }
+
+    LOG__aMayusculas(){
+        return `Cadena resultante ${this.tarea.resultados.cadena}`
     }
 }
 

@@ -130,6 +130,22 @@ class MiProceso extends Proceso{
 
 ```
 
+Se puede también llamar a directamente al método *__log*:
+
+```js
+
+class MiProceso extends Proceso{
+
+    //....
+
+    __foo(){
+        this.__log("Mensaje");
+    }
+
+
+}
+
+```
 
 
 
