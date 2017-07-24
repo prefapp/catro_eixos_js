@@ -45,8 +45,7 @@ describe("Núcleo - Base", () => {
         });
 
         it("El procesador inicializado es funcional", (hecho) => {
-
-            Procesador.ejecutar(
+            Procesador.ejecutar(    
 
                 utiles.tarea("A.mayusculas", {cadena: "hola"})
 
@@ -58,9 +57,11 @@ describe("Núcleo - Base", () => {
                 
             }).then((tarea) => {
 
-                tarea.args.proceso = "A.minusculas";
+                return Procesador.ejecutar(
 
-                return Procesador.ejecutar(tarea);
+                    utiles.tarea("A.minusculas", tarea.args)
+
+                );
 
             }).then((tarea) => {
 
