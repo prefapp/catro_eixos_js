@@ -22,5 +22,9 @@ module.exports = {
 
     //logs
     MixinProcesoConBox : require("./lib/log/proceso_con_box.js"), 
-    DriverBoxLocal: require("./lib/log/driver_local.js")
+    DriverBoxLocal: require("./lib/log/driver_local.js"),
+  
+    //repl
+    repl: require("./lib/utiles/repl.js")
+    
 }
