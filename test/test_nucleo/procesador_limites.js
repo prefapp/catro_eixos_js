@@ -36,7 +36,7 @@ describe("Procesador - Limites", function(){
 
                 new Tarea(
 
-                    "foo", 
+                    "foo" + i, 
 
                     {
                         proceso: "Dormir.dormilon", 
