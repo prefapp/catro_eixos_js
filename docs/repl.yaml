@@ -10,6 +10,8 @@ Además de las propias del REPL de NodeJS, se agregan, por defecto una serie de 
 
 * *.r*: ejecutar un proceso en el procesador
 
+* *.u*: recarga el procesador (los módulos js)
+
 ## Utilización
 
 
@@ -25,7 +27,15 @@ repl(
     return init({
       //familias de procesos
     });
-  }
+  },
+
+  {
+    precargar: {
+
+      db: () => {require("./models")}
+
+    }
+  } //opciones adicionales
 )
 
 
