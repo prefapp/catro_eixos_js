@@ -226,6 +226,7 @@ new FamiliaArchivos.cargar()
 * [ProcesoBootstrap](docs/bootstrap.md): para realizar arranques de un sistema. 
 * [TestUnidadProceso](docs/unidad_proceso.md): para depurar/desarrollar procesos.
 * [REPL](docs/repl.md): CLI para catro-eixos-js
+* [Lotes](docs/lotes.md): método de ejecución por lotes
 
 Copyright (C) 2017, Francisco Maseda
 
