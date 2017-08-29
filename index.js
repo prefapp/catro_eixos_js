@@ -25,6 +25,8 @@ module.exports = {
     DriverBoxLocal: require("./lib/log/driver_local.js"),
   
     //repl
-    repl: require("./lib/utiles/repl.js")
+    repl: require("./lib/utiles/repl.js"),
+    //cliTarea
+    execTarea: require("./lib/utiles/tarea.js")
     
 }
