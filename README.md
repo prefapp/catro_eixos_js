@@ -76,6 +76,11 @@ class TrabajoEjemplo extends CE.Proceso {
         //esto se ejecutará en caso de un error en __a
     }
 
+    RB__a(){
+        // en caso de un error en otro punto de la ejecución, 
+        // si este paso había acabado bien, se ejecuta RB (rollback)
+        // para deshacer lo realizado por este paso
+    }
 }
 
 ```
@@ -229,7 +234,7 @@ new FamiliaArchivos.cargar()
 * [Tarea](docs/tarea.md): ejecución de tarea por línea de comandos 
 * [Lotes](docs/lotes.md): método de ejecución por lotes
 
-Copyright (C) 2017, Francisco Maseda
+Copyright (C) 2017, Francisco Maseda y Javier Gómez
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
