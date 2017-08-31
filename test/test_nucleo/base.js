@@ -98,7 +98,7 @@ describe("Núcleo - Base", () => {
                 })
 
                 .catch((tarea) => {
-        
+
                     expect(tarea.resultados.suma).to.equal(10);
                     expect(tarea.resultados.multiplicacion).to.equal(0);
                     expect(tarea.resultados.estado).to.equal("KO");
