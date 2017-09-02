@@ -233,6 +233,7 @@ new FamiliaArchivos.cargar()
 * [REPL](docs/repl.md): CLI para catro-eixos-js
 * [Tarea](docs/tarea.md): ejecución de tarea por línea de comandos 
 * [Lotes](docs/lotes.md): método de ejecución por lotes
+* [Helpers](docs/helpers.md): métodos de ayuda a la programación
 
 Copyright (C) 2017, Francisco Maseda y Javier Gómez
 
