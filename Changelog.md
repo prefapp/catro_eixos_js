@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## 2.3.3 - [05-09-2017]
+
+- Fix de bug que impedía recoger adecuadamente el estado de un subproceso
+
 ## 2.3.2 - [05-09-2017]
 
 - Corrección de bug de subprocesos con rollback
