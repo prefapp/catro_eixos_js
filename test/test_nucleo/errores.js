@@ -92,7 +92,7 @@ describe("Se controlan los errores", function() {
         })
     })
 
-    it("Error en subproceso", function(hecho){
+    it("Error en subproceso (VALIDACION)", function(hecho){
 
       init({
         "A": __dirname + "/../fixtures/procesos"
@@ -114,6 +114,37 @@ describe("Se controlan los errores", function() {
         .catch(({resultados}) => {
 
           expect(resultados.estado).to.equal("KO");
+
+          hecho();
+        })
+      
+
+    })
+
+    it("Error en subproceso ", function(hecho){
+
+      init({
+        "A": __dirname + "/../fixtures/procesos"
+      })
+        .then((refProcesador) => {
+
+          return refProcesador.ejecutar(
+
+            new Tarea("", {proceso: "A.complejo_error", familia: "A", continuar: true})
+
+          )
+
+        })
+
+        .then(() => {
+          hecho("NO_DEBIO_LLEGAR_A_ESTE_PUNTO");
+        })
+
+        .catch(({resultados}) => {
+
+          expect(resultados.estado).to.equal("KO");
+
+          expect(resultados.error.match(/FALLO/)[0]).to.equal("FALLO")
 
           hecho();
         })

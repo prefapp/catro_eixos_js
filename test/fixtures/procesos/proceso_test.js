@@ -20,6 +20,9 @@ module.exports = class extends CatroEixos.Proceso {
     }
 
     __cadenaAMinusculas(){
+
+        if(this.arg("cadena") == "FALLA") throw "FALLO"
+
         return this.arg("cadena").toLowerCase()
     }
 
