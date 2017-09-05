@@ -8,7 +8,7 @@ const {
 
 } = require("../fixtures/procesos/procesos_erroneos.js");
 
-const {Procesador, Tarea} = require("../../index.js");
+const {Procesador, Tarea, init} = require("../../index.js");
 
 describe("Se controlan los errores", function() {
 
@@ -92,4 +92,32 @@ describe("Se controlan los errores", function() {
         })
     })
 
+    it("Error en subproceso", function(hecho){
+
+      init({
+        "A": __dirname + "/../fixtures/procesos"
+      })
+        .then((refProcesador) => {
+
+          return refProcesador.ejecutar(
+
+            new Tarea("", {proceso: "A.complejo_error", familia: "A"})
+
+          )
+
+        })
+
+        .then(() => {
+          hecho("NO_DEBIO_LLEGAR_A_ESTE_PUNTO");
+        })
+
+        .catch(({resultados}) => {
+
+          expect(resultados.estado).to.equal("KO");
+
+          hecho();
+        })
+      
+
+    })
 })
