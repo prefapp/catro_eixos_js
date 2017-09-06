@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+- Se valida que los parámetros necesarios no sean undefined
+- Validaciones en nivel de logs (para caso de niveles no definidos) y se habilita off para apagar logs
+
 ## 2.3.3 - [05-09-2017]
 
 - Fix de bug que impedía recoger adecuadamente el estado de un subproceso
