@@ -23,5 +23,14 @@ class MiProceso extends Proceso{
 
 }
 
-
 ```
+
+## porcentaje
+
+Establece un % de completado de la tarea en curso. 
+
+Apunta un resultado en tarea (porcentaje_completado).
+
+Lanza un evento de *PORCENTAJE_ACTUALIZADO*
+
+

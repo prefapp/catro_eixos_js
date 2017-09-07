@@ -1,7 +1,14 @@
 # Changelog
 
-## [Unreleased]
+## [unreleased]
 
+## 2.4.1 [07-09-2017]
+
+- Se agrega un método de cancelación de un proceso (propagable al resto de subprocesos)
+- Se agrega un método para establecer un porcentaje de completado
+- Nuevo evento (PORCENTAJE_ACTUALIZADO) 
+- Nueva documentación
+- Se pueden pasar eventos de control al procesador desde una llamada a subProceso
 - Se valida que los parámetros necesarios no sean undefined
 - Validaciones en nivel de logs (para caso de niveles no definidos) y se habilita off para apagar logs
 

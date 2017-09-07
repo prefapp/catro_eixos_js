@@ -226,8 +226,11 @@ new FamiliaArchivos.cargar()
 
 ```
 
+
+
 ## Documentación
 
+* [Eventos de proceso](docs/eventos.md): eventos asociados al ciclo de vida de un proceso
 * [ProcesoBootstrap](docs/bootstrap.md): para realizar arranques de un sistema. 
 * [TestUnidadProceso](docs/unidad_proceso.md): para depurar/desarrollar procesos.
 * [REPL](docs/repl.md): CLI para catro-eixos-js
