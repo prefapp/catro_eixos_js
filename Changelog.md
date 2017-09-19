@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+## 2.4.2 [19-09-2017]
+
+- Se corrige un bug en los límites de proceso para cuando el proceso falla.
+
 ## 2.4.1 [07-09-2017]
 
 - Se agrega un método de cancelación de un proceso (propagable al resto de subprocesos)
