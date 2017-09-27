@@ -2,7 +2,10 @@
 
 ## [unreleased]
 
-## [2.4.3]
+## 2.4.4
+- Agregado hito automático
+
+## 2.4.3 [27-09-2017]
 
 - hito() agregado
 - porcentaje() agregado (alias de completado)
