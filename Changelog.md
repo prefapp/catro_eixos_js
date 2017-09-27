@@ -2,6 +2,9 @@
 
 ## [unreleased]
 
+## 2.4.5
+- Corrección de hito automático
+
 ## 2.4.4
 - Agregado hito automático
 
