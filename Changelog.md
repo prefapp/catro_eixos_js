@@ -1,6 +1,12 @@
 # Changelog
 
-## [unreleased]
+## [unreleased]
+
+## [2.4.3]
+
+- hito() agregado
+- porcentaje() agregado (alias de completado)
+- completado() es ahora getter/setter
 
 ## 2.4.2 [19-09-2017]
 
