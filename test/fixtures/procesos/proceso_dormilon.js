@@ -34,6 +34,7 @@ class ProcesoDormilon extends CatroEixos.Proceso {
 
     __apuntarResultados(){
         this.resultado("despierto", this.arg("nombre"));
+        this.resultado("tTranscurrido", this.__tTranscurrido());
     }
 
 }

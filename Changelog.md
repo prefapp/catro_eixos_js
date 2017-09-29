@@ -2,6 +2,9 @@
 
 ## [unreleased]
 
+- Agregado un método que permite controlar el tiempo total
+  de ejecución de un proceso (__tTranscurrido())
+
 ## 2.4.5
 - Corrección de hito automático
 
