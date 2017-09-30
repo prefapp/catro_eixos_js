@@ -16,7 +16,7 @@ module.exports = class extends CatroEixos.Proceso {
     }
 
     __llamaAOtro(){
-      return this.subProceso(this.arg("llama_a"))
+      return this.subProceso(this.arg("llama_a"), Object.assign({}, this.tarea.args))
     }
   
     OK__llamaAOtro(resultados){
