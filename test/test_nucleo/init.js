@@ -66,7 +66,7 @@ describe("Núcleo - Base", () => {
             }).then((tarea) => {
 
                 expect(tarea.resultados.cadena).to.equal("hola");
-
+                expect(tarea.resultados.porcentaje_completado).to.equal(100)
                 hecho();
 
             }).catch((err) => {

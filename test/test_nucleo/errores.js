@@ -113,6 +113,7 @@ describe("Se controlan los errores", function() {
 
         .catch(({resultados}) => {
 
+          expect(resultados.porcentaje_completado).to.equal(100)
           expect(resultados.estado).to.equal("KO");
 
           hecho();
