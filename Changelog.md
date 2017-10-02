@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+## 2.6.1 [02-10-2017]
+
 - Agregado un método que permite controlar el tiempo total
   de ejecución de un proceso (__tTranscurrido())
 - Agregado un método __elapsedTime
