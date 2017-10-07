@@ -134,4 +134,47 @@ describe("Núcleo - Eventos", () => {
         })
 
     })
+
+    it("Controla eventos de porcentaje", function(hecho){
+
+      this.timeout(0);
+
+      let porcentajes = [];
+      let hitos = [];
+
+      Procesador.ejecutar(new Tarea("foo2", {
+          proceso: "A.escalonado"
+      }), {
+
+        eventos: {
+
+          "PORCENTAJE_ACTUALIZADO": (p) => {
+
+            porcentajes.push(p);
+          },
+
+          "HITO_ACTUALIZADO": (h) => {
+            hitos.push(h);
+          }
+        }
+
+      }).then(() => {
+
+        expect(porcentajes.length).to.equal(4)
+        expect(porcentajes[0]).to.equal(20)
+        expect(porcentajes[1]).to.equal(50)
+        expect(porcentajes[2]).to.equal(90)
+        expect(porcentajes[3]).to.equal(100)
+
+        expect(hitos.length).to.equal(4)
+        expect(hitos[0]).to.equal("DUERME_A")
+        expect(hitos[1]).to.equal("DUERME_B")
+        expect(hitos[2]).to.equal("DUERME_C")
+        expect(hitos[3]).to.equal("DUERME_BUCLE")
+
+        hecho();
+      })
+      .catch((e) => hecho(e))
+
+    })
 })
