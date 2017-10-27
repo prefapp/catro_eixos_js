@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+## 2.6.2 [24-10-2017]
+
+- Agregado alijo al proceso
+
 ## 2.6.1 [02-10-2017]
 
 - Agregado un método que permite controlar el tiempo total
