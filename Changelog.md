@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+- Agregada validación de bloque __r
+
 ## 2.6.2 [24-10-2017]
 
 - Agregado alijo al proceso
