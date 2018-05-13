@@ -47,7 +47,7 @@ Todos devuelven una Promise.
 
 ### Uso
 
-Se puede ver un ejemplo en este [test](test/fixtures/proceso_fs.js)
+Se puede ver un ejemplo en este [test](../test/fixtures/proceso_fs.js)
 
 
 
