@@ -1,6 +1,8 @@
 # Changelog
 
-## [unreleased]
+## [unreleased]
+
+## 2.7.2 [13-05-2018]
 
 - Métodos base de fs
 
