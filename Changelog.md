@@ -2,6 +2,11 @@
 
 ## [unreleased]
 
+- Métodos base de fs
+
+## 2.7.1 [01-05-2018]
+
+- Agregada funcionalidad de paraCada
 - Agregada validación de bloque __r
 
 ## 2.6.2 [24-10-2017]
