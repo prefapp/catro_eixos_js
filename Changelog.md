@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+## 2.8.1 [02-06-2018]
+
+- Agregados métodos fan
+
 ## 2.7.2 [13-05-2018]
 
 - Métodos base de fs
