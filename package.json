@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/prefapp/catro_eixos_js.git",
   "scripts": {
-    "test": "NODE_ENV=test mocha --recursive"
+    "test": "NODE_ENV=test mocha --recursive $(find test -name test_*)"
   },
   "keywords": [
     "Procesos",
@@ -21,6 +21,7 @@
     "prompt-sync": "^4.1.5"
   },
   "dependencies": {
+    "array-flatten": "^2.1.1",
     "immutable": "^3.8.1",
     "redux": "^3.6.0",
     "winston": "^2.3.1",

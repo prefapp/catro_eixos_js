@@ -238,6 +238,7 @@ new FamiliaArchivos.cargar()
 * [Lotes](docs/lotes.md): método de ejecución por lotes
 * [Helpers](docs/helpers.md): métodos de ayuda a la programación
 * [Info](docs/info.md): subsistema de información de un procesador en ejecución
+* [Paralelización](docs/multi.md): subsistema de tareas paralelas. 
 
 Copyright (C) 2017, Francisco Maseda y Javier Gómez
 

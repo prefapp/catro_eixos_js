@@ -49,5 +49,48 @@ Todos devuelven una Promise.
 
 Se puede ver un ejemplo en este [test](../test/fixtures/proceso_fs.js)
 
+## Secuenciación de pasos (método paraCada)
+
+Permite enviar una serie de tareas asíncronas (promesas) de forma ordenada y con una espera opcional de tiempo (en segundos).
+
+```js
+
+//proceso
+
+  __foo(){
+
+    const tareas = lista.map((n) => {
+
+        return () => {
+
+            return this.subProceso(
+    
+                "MisProcesos.foo2",
+
+                {
+                    numero: n
+                }
+    
+            )
+
+        }
+
+    })
+
+    return this.paraCada(tareas, 0.75); //ejecuta las tareas de forma escalonada con una espera de 0.75 segundos
+
+
+  }
+
+
+```
+
+El helper *paraCada* acepta un array de funciones que devuelven una Promise y, opcionalmente, un tiempo en segundos de espera entre procesado y procesado. 
+
+
+
+
+
+
 
 
