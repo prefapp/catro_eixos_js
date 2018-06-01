@@ -29,7 +29,7 @@ describe("Fan - Proceso", () => {
                 })
     });
 
-    it("Permite ejecutar un lote de acciones", function(hecho){
+    it("Permite ejecutar un lote de acciones", function(){
 
         this.timeout(0);
 
