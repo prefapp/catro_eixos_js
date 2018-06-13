@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+- Agregado método finalizar()
+
+- Agregado UtilesFS.listarDirectorio()
+
 ## 2.8.1 [02-06-2018]
 
 - Agregados métodos fan
