@@ -20,7 +20,6 @@ class ProcesoPaso extends CatroEixos.Proceso {
 
     __pasoUno(){
 
-
         this.resultado("uno", true);
 
     }
