@@ -16,7 +16,8 @@ module.exports = class extends Proceso {
             "__existeFichero",
             "__crearFichero",
             "__leerFichero",
-            "__borrarFichero"
+            "__borrarFichero",
+            "__listarDirectorio",
         ]
     }
 
@@ -85,6 +86,17 @@ module.exports = class extends Proceso {
 
     }
 
+    __listarDirectorio(){
+
+        return this.UtilesFS.listarDirectorio(`/proc`)
+
+    }
+
+    EVAL__listarDirectorio(lista){
+
+        if(!Array.isArray(lista)) throw `No se han leido los ficheros del dir`;
+
+    }
     
 }
 

@@ -32,8 +32,6 @@ describe("Útiles - FS", () => {
 
         return proceso.ejecutar();
 
-
-
     })
 
 })
