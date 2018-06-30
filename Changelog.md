@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+## 2.9.1 [01-07-2018]
+
+- Agregado sistema de bundling 
+
 - Agregado método finalizar()
 
 - Agregado UtilesFS.listarDirectorio()
