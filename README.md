@@ -239,6 +239,7 @@ new FamiliaArchivos.cargar()
 * [Helpers](docs/helpers.md): métodos de ayuda a la programación
 * [Info](docs/info.md): subsistema de información de un procesador en ejecución
 * [Paralelización](docs/multi.md): subsistema de tareas paralelas. 
+* [Bundling](docs/bundle.md): Empaquetado de apps catro-eixos-js con webpack
 
 Copyright (C) 2017, Francisco Maseda y Javier Gómez
 

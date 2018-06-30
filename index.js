@@ -26,7 +26,11 @@ module.exports = {
   
     //repl
     repl: require("./lib/utiles/repl.js"),
+
     //cliTarea
-    execTarea: require("./lib/utiles/tarea.js")
+    execTarea: require("./lib/utiles/tarea.js"),
+
+    //bundler
+    Bundle: require("./lib/utiles/bundle.js")
     
 }
