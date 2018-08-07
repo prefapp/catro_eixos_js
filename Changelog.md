@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+## 2.9.2 [07-08-2018]
+
+- Agregada funcionalida de forkProceso en núcleo
+
 ## 2.9.1 [01-07-2018]
 
 - Agregado sistema de bundling 
