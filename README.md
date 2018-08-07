@@ -240,6 +240,7 @@ new FamiliaArchivos.cargar()
 * [Info](docs/info.md): subsistema de información de un procesador en ejecución
 * [Paralelización](docs/multi.md): subsistema de tareas paralelas. 
 * [Bundling](docs/bundle.md): Empaquetado de apps catro-eixos-js con webpack
+* [Fases](docs/fases.md): Fases de paso dentro de un proceso
 
 Copyright (C) 2017, Francisco Maseda y Javier Gómez
 
