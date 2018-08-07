@@ -4,6 +4,8 @@
 
 - Validación de tipos de datos en parámetros
 
+## 2.9.3 [08-08-2018]
+
 - Fase REP 
 
 ## 2.9.2 [07-08-2018]
