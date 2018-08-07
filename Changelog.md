@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+- Validación de tipos de datos en parámetros
+
+- Fase REP 
+
 ## 2.9.2 [07-08-2018]
 
 - Agregada funcionalida de forkProceso en núcleo
