@@ -4,6 +4,8 @@
 
 - Validación de tipos de datos en parámetros
 
+- Asegurado orden de ejecución en proceso Bootstrap
+
 ## 2.9.3 [08-08-2018]
 
 - Fase REP 
