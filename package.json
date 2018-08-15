@@ -1,6 +1,6 @@
 {
   "name": "catro-eixos-js",
-  "version": "2.9.3",
+  "version": "2.9.6",
   "description": "Librería de ejecución de procesos",
   "main": "index.js",
   "repository": "https://github.com/prefapp/catro_eixos_js.git",
