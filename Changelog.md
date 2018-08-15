@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+- Alijo Global
+
 - Validación de tipos de datos en parámetros
 
 - Asegurado orden de ejecución en proceso Bootstrap
