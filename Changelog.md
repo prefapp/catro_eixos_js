@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+## 2.9.6 [15-08-2018]
+
 - Alijo Global
 
 - Validación de tipos de datos en parámetros
