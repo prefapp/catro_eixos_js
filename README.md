@@ -241,6 +241,7 @@ new FamiliaArchivos.cargar()
 * [Paralelización](docs/multi.md): subsistema de tareas paralelas. 
 * [Bundling](docs/bundle.md): Empaquetado de apps catro-eixos-js con webpack
 * [Fases](docs/fases.md): Fases de paso dentro de un proceso
+* [Bloqueos](docs/locks.md): Bloqueos (locks) dentro de un procesador.
 
 Copyright (C) 2017, Francisco Maseda y Javier Gómez
 
