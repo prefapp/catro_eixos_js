@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+## 3.0.0 [1-09-2018]
+
+- Creación de locks para procesos
+
 ## 2.9.6 [15-08-2018]
 
 - Alijo Global
