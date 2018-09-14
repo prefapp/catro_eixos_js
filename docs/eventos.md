@@ -111,6 +111,40 @@ module.exports = class extends Proceso{
 
 	__llamarAS1(){
 
+		return this.subProceso(
+
+			"Foo.S1",
+
+			{
+				//parámetros de llamada a S1
+			},
+
+			{
+				controlador_subprocesos: {
+
+					//en llamada a este paso de S1, se actualiza el porcentaje de completado
+					//del proceso principal
+
+					"Foo.S1.__paso1": {
+
+						porcentaje: 30
+				
+					},
+
+					//en el paso2 de S1, se pone un hito en el principal
+					"Foo.S1.__paso2": {
+
+						porcentaje: 40,
+
+						hito: "YA_EN_PASO2_DE_S1"
+
+					}
+
+
+				}
+			}
+
+		)
 
 	}
 
