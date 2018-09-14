@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+## 3.1.0 [14-09-2018]
+
 - Correccion de fallos en locks de procesos
 
 - Agregado controlador de subprocesos
