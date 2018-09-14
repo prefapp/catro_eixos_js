@@ -76,5 +76,57 @@ class MiProceso extends Proceso{
 
 ```
 
+## Controlador de subprocesos
+
+Para controlar un flujo de ejecución que anida subprocesos (P -> s1 -> s2 -> sn), se puede emplear el *ControladorSubprocesos* que permite establecer niveles de completado, hitos y resultados cuando partes del proceso (ejecutadas en subprocesos) se vean completadas. 
+
+Imaginemos que tenemos un esquema como el que sigue:
+
+```js
+
+---Principal
+   |
+   |----------> S1
+                |
+                |----------> S2
+
+```
+
+En esta situación, se puede establecer a nivel del proceso principal un controlador que permita actualizar sus propios resultados (los de su tarea) en función de los pasos que se vayan ejecutando en los procesos auxiliares:
+
+```js
+
+
+const {Proceso} = require("catro-eixos-js");
+
+
+module.exports = class extends Proceso{
+
+	__r(){
+
+		return [
+			"__llamarAS1",
+		]
+	}
+
+	__llamarAS1(){
+
+
+	}
+
+
+
+}
+
+
+
+```
+
+
+
+ 
+
+
+
 
 
