@@ -32,7 +32,7 @@ describe("Nucleo - Bloqueos", function(){
 
 					proceso: "P.base",
 
-					identificador: id
+					identificador: id,
 
 				})
 
@@ -48,6 +48,10 @@ describe("Nucleo - Bloqueos", function(){
 
 		return Promise.all(pp).then(() => {
 
+
+		}).catch((err) => {
+
+			throw err;
 
 		})
 
