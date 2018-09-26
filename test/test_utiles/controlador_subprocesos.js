@@ -52,6 +52,8 @@ describe("Utiles - ControladorSubprocesos", () => {
 
 		}).then(() => {
 
+			console.log("Proceso terminado")
+
 			hecho();
 
 		})
@@ -83,11 +85,14 @@ describe("Utiles - ControladorSubprocesos", () => {
 
 			letra = "D"
 
-			return helper_esperar(500);
+			return helper_esperar(3500);
 
 		}).then(() => {
 
-			expect(t.resultados.porcentaje_completado).to.equal(90);
+			expect(t.resultados.porcentaje_completado > 60 && 
+					t.resultados.porcentaje_completado <= 90 
+				).to.equal(true);
+
 			expect(t.resultados.hito).to.equal("D_COMPLETADO");
 
 		}).then(() => {

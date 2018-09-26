@@ -2,6 +2,12 @@
 
 ## [unreleased]
 
+## 3.1.1 [26-09-2018]
+
+- Agregado evento 'parchear' para permitir MonkeyPatching en procesos
+
+- Corregido un error en controlador_procesos tipo progresivo
+
 ## 3.1.0 [14-09-2018]
 
 - Correccion de fallos en locks de procesos

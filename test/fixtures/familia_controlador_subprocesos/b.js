@@ -99,7 +99,7 @@ module.exports = class extends Proceso{
 
 	__f(){
 
-		return this.__esperar(2);
+		//return this.__esperar(2);
 	}
 
 }

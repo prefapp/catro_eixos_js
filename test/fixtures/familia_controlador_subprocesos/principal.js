@@ -63,7 +63,17 @@ module.exports = class extends Proceso{
 
 					"Familia.b.__d": {
 
-						porcentaje: 90,
+	//					porcentaje: 90,
+
+						porcentaje_progresivo: {
+
+							desde: 60,
+
+							hasta: 90,
+
+							tiempo: 100
+
+						},
 
 						hito: "D_COMPLETADO"
 
