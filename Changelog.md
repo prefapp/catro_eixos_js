@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+## 3.1.2 [28-10-2018]
+
+- Agregado constructor de interfaces 
+
 ## 3.1.1 [26-09-2018]
 
 - Agregado evento 'parchear' para permitir MonkeyPatching en procesos

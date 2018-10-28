@@ -31,6 +31,10 @@ module.exports = {
     execTarea: require("./lib/utiles/tarea.js"),
 
     //bundler
-    Bundle: require("./lib/utiles/bundle.js")
+    Bundle: require("./lib/utiles/bundle.js"),
+
+	//Helper para construir Interfaces
+	InterfazConstructor: require("./lib/utiles/interfaz.js"),
+	
     
 }

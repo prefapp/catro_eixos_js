@@ -28,7 +28,7 @@ describe("Núcleo - Rep", function(){
 
     it("Permite la ejecutar de un rep largo", function(){
 
-        this.timeout();
+        this.timeout(0);
         
         return new ProcesoRep(
 
