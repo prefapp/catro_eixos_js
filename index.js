@@ -36,5 +36,7 @@ module.exports = {
 	//Helper para construir Interfaces
 	InterfazConstructor: require("./lib/utiles/interfaz.js"),
 	
+	//helper de creacion de Módulos
+	Modulo: require("./lib/utiles/modulo.js"),
     
 }
