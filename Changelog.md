@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+- Implementación de módulos en catro-eixos-js
+
 ## 3.1.2 [28-10-2018]
 
 - Agregado constructor de interfaces 
