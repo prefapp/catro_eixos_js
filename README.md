@@ -242,6 +242,7 @@ new FamiliaArchivos.cargar()
 * [Bundling](docs/bundle.md): Empaquetado de apps catro-eixos-js con webpack
 * [Fases](docs/fases.md): Fases de paso dentro de un proceso
 * [Bloqueos](docs/locks.md): Bloqueos (locks) dentro de un procesador.
+* [Módulos]: Creación y empleo de módulos en catro-eixos-js.
 
 Copyright (C) 2017, Francisco Maseda y Javier Gómez
 
