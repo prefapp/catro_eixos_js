@@ -1,6 +1,6 @@
 # Changelog
 
-## [unreleased]
+## 3.2.1 [18-02-2019]
 
 - Implementación de módulos en catro-eixos-js
 
