@@ -22,7 +22,7 @@ catch(err){
 
 }
 
-    Bundle(init, {salida})
+    Bundle(init, {salida, esModulo : true})
 
         .then(() => {
 

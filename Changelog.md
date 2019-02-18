@@ -1,5 +1,10 @@
 # Changelog
 
+## [unreleased]
+
+- Agregado bundler para módulos
+
+
 ## 3.2.1 [18-02-2019]
 
 - Implementación de módulos en catro-eixos-js
