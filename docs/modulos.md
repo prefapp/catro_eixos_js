@@ -2,13 +2,13 @@
 
 Un módulo es un procesador que tiene asociadas una o varias familias de procesos. 
 
-La característica fundamental de un módulo es que se puede *instalar* en un proyecto de catro-eixos-js para ser empleado. 
+La característica fundamental de un módulo es que se puede *instalar* en un proyecto de catro-eixos-js para ser empleado como si de un plugin o librería se tratase. 
 
 ## Del ciclo de vida de un módulo
 
 Los módulos de catro-eixos-js se desarrollan como proyectos de tipo npm que se pueden instalar con el gestor de paquetes de nuestra elección. 
 
-Dichos módulos, una vez instalados, se pueden emplear directamente mediante su instalación. 
+Dichos módulos, una vez instalados, se pueden emplear directamente mediante su inclusión en nuestro proyecto. 
 
 
 ### De la invocación de un proceso de un módulo
@@ -31,7 +31,7 @@ class extends Proceso{
 
 		return this.mProceso(
 
-			"primero#familia.proceso",
+			"primero#Familia.proceso",
 
 			{
 				arg1: "",
@@ -47,6 +47,9 @@ class extends Proceso{
 }
 
 ```
+
+En el ejemplo, estamos llamando al proceso __Familia.proceso__ del módulo __primero__. 
+
 
 #### Del montaje de un módulo
 
@@ -104,8 +107,19 @@ module.exports = function(){
 
 ```
 
+### De la programación de un módulo
+
+Los módulos se implementan como paquetes normales de node.
+
+1. Creamos nuestro proyecto
+2. Instalamos dependencias, en nuestro caso: catro-eixos-js
+3. Creamos nuestra estructura:
+  * fichero init.js
+  * familias de procesos
+  * entidades separadas...
+4. En el fichero de index.js de nuestro proceso (o en otro a nuestra elección) introducimos 
+una función de nuestro proyecto *como un módulo de catro-eixos-js*
 
 
-
-
+Para crear un módulo, en nuestro fichero *index.js* ()
 
