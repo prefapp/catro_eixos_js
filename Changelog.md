@@ -2,7 +2,10 @@
 
 ## [unreleased]
 
+## 3.2.2 [18-02-2019]
+
 - Agregado bundler para módulos
+- Permitir pasar argumentos a módulos
 
 
 ## 3.2.1 [18-02-2019]
