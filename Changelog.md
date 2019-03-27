@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+## 3.3.1 [27-03-2019]
+
+- Corregidas vulnerabilidades en dependencias
+
 ## 3.2.2 [18-02-2019]
 
 - Agregado bundler para módulos
