@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+- Corrección de tests
+
 ## 3.3.1 [27-03-2019]
 
 - Corregidas vulnerabilidades en dependencias
