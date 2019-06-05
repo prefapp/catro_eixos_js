@@ -6,10 +6,19 @@ module.exports = class extends ProcesoBase{
 
         return [
 
+            "__realizarEspera",
             "__recuperarValor",
-            "__apuntarValor"
+            "__apuntarValor",
+            "__comprobarValor"
 
         ]
+
+    }
+
+    __realizarEspera(){
+
+        if(this.arg("esperar"))
+            return this.__esperar(this.arg("esperar"));
 
     }
 
@@ -22,6 +31,13 @@ module.exports = class extends ProcesoBase{
     __apuntarValor(){
 
         this.resultado("valor", this.a("valor"));
+
+    }
+
+    __comprobarValor(){
+
+        if(this.arg("comprobar"))
+            this.arg("comprobar")(this.a("valor"))
 
     }
 

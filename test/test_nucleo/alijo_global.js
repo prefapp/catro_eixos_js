@@ -57,4 +57,32 @@ describe("Nucleo - Alijo Global", function(){
 
     })
 
+    it("No presenta problemas con el forkProceso", function(){
+        
+        this.timeout(0);
+
+        return Procesador.ejecutar(
+                
+            new Tarea("", {
+
+                proceso: "P.lanzador",
+
+                familia: "P",
+
+                comprobar: (valor) => {
+
+                    expect(valor).to.be.equal("EN_FORK");
+
+                }
+
+            })
+                
+        ).then(() => {
+            
+            return new Promise((c) => setTimeout(c, 2000))
+            
+        })  
+        
+    })
+
 })
