@@ -125,7 +125,7 @@ class Entrada extends Proceso{
 
     EVAL__borrarFichero(){
 
-        if(fs.exists(this.arg("ruta") + "/prueba.txt")) throw "FICHERO_NO_BORRADO"
+        if(fs.existsSync(this.arg("ruta") + "/prueba.txt")) throw "FICHERO_NO_BORRADO"
     }
 
     KO__borrarFichero(err){
