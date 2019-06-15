@@ -243,6 +243,7 @@ new FamiliaArchivos.cargar()
 * [Fases](docs/fases.md): Fases de paso dentro de un proceso
 * [Bloqueos](docs/locks.md): Bloqueos (locks) dentro de un procesador.
 * [Módulos]: Creación y empleo de módulos en catro-eixos-js.
+* [Mocks](docs/mocks.md): Creación y empleo de procesos mock en catro-eixos-js.
 
 Copyright (C) 2017, Francisco Maseda y Javier Gómez
 
