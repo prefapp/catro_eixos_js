@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+## 3.3.1 [15-06-2019]
+
+- Implementación de procesos mock
+
 - Corrección de tests
 
 ## 3.3.1 [27-03-2019]
