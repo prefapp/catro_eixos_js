@@ -26,7 +26,7 @@ describe("Núcleo - Base", () => {
 
             familia.cargar()
  
-                .then((familia) => {
+                .then(({familia}) => {
 
                     expect(familia).to.contain.all.keys([
 
