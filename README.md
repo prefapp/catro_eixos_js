@@ -245,7 +245,7 @@ new FamiliaArchivos.cargar()
 * [Módulos]: Creación y empleo de módulos en catro-eixos-js.
 * [Mocks](docs/mocks.md): Creación y empleo de procesos mock en catro-eixos-js.
 
-Copyright (C) 2017, Francisco Maseda y Javier Gómez
+Copyright (C) 2019, Francisco Maseda y Javier Gómez
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
