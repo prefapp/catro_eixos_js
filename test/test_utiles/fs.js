@@ -18,7 +18,7 @@ describe("Útiles - FS", () => {
 
             new CatroEixos.Tarea("test", {
 
-                ruta: "/tmp/foo"
+                ruta: "/tmp/foo_" + String(Math.floor(Math.random() * (33 - 1)) + 1)
 
             })
 
