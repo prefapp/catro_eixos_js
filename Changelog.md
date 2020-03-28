@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+## 3.4.2 [28-03-2020]
+
+- Corregir paquetes desfasados
+
 ## 3.3.1 [15-06-2019]
 
 - Implementación de procesos mock
